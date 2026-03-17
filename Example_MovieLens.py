@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 __author__ = 'Lenette'
 
+# Change made locally by Lenette #
+
 import pandas as pd
 
 # Load users info
