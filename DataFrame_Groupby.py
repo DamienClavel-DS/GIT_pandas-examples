@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-__author__ = 'Damien'
+__author__ = 'Damien CLAVEL'
 
 import pandas as pd
 import numpy as np
@@ -40,6 +40,7 @@ print('\n==================================================================\n')
 avgRatings = cloneDF(mergeRatings)
 avgRatings = avgRatings.groupby(['movie_id', 'title']).mean()
 print('Avg ratings: \n%s' % avgRatings['rating'][:10])
+:a
 print('\n==================================================================\n')
 
 
