@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 __author__ = 'Lenette'
 
-# Change made locally by Lenette #
+## Local change in file by LK ##
 
 import pandas as pd
 
