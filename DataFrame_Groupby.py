@@ -29,8 +29,8 @@ def cloneDF(df):
 
 
 # Show Films with more votes. (groupby + sorted)
-numberRatings = cloneDF(mergeRatings)
-numberRatings = numberRatings.groupby(
+numberRatings2 = cloneDF(mergeRatings)
+numberRatings2 = numberRatings.groupby(
     'title').size().sort_values(ascending=False)
 print('Films with more votes: \n%s' % numberRatings[:10])
 print('\n==================================================================\n')
